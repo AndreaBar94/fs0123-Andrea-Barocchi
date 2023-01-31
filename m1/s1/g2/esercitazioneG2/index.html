@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Sviluppo di una pagina web - Blog Epicode</title>
     <meta name="description" content="Primi passi operativi per creare un modello di pagina HTML per un post. Scopri come iniziare in modo facile.">
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <header>
@@ -14,11 +15,11 @@
 
         <section id="logo">
             <img src="img/logo.svg" alt="logo">
-            <p>Epicode - Il blog dei developers</p>
+            <p id="plogo">Epicode - Il blog dei developers</p>
         </section>
 
-        <nav id="menu">
-                    <ul>
+        <nav>
+                    <ul class="ulmenu">
                         <li>
                             <a href="#">Home</a>
                         </li>
@@ -125,20 +126,22 @@
                         <button>Iscriviti!</button>
             
             </p>
+            <h4>Articoli Correlati:</h4>
             <aside>
-                <article id="secondari">
+                
+                <article class="secondari">
                     <a href="#">Validare il codice HTML</a>
                     <p>Categoria: develop</p>
                     <time>Data: 18-9-2020</time>
                 </article>
 
-                <article id="secondari">
+                <article class="secondari">
                     <a href="#">Correggere la sintassi</a>
                     <p>Categoria: develop</p>
                     <time>Data: 16-9-2020</time>
                 </article>
 
-                <article id="secondari">
+                <article class="secondari">
                     <a href="#">Meno Kb nella pagina</a>
                     <p>Categoria: ottimizzazione</p>
                     <time>Data: 30-9-2020</time>

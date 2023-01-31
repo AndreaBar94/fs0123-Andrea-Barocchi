@@ -1,0 +1,46 @@
+body 
+    {
+        margin: 0px;
+        padding: 20px;
+        background-image: linear-gradient(133deg, #ffffff, #766f79);
+    }
+
+h3 
+    {
+        font-size: 25px;
+        font-family: none;
+        font-style: normal;
+    }
+
+#plogo
+    {
+        font-size: 25px;
+        font-style: oblique;
+    }
+
+.ulmenu
+    {
+        list-style-type: none;
+        font-style: normal;
+        
+    }    
+
+a 
+    {
+        text-decoration: none;
+    }
+
+
+aside
+    {
+        display: flex;
+        justify-content: space-around;
+    }
+
+footer
+    {
+        margin: 20px;
+        margin-bottom: 10px;
+    }
+
+    /* devo ancora modificare la tabella */
