@@ -1,8 +1,9 @@
 #header{
     width: 100%;
     margin: 0 auto;
-
+    margin-bottom: 3em;
 }
+
 div{
     margin-left: auto 0;
     margin-right: auto 0;
@@ -32,7 +33,8 @@ span{
 .sottotitolo{
     border-top: 1px solid #ffd977;
     background-color: #fff8e6;
-    padding: auto;
+    padding-top: 1em;
+    padding-bottom: 1em;
 }
 
 .onimage{
@@ -40,7 +42,7 @@ span{
     
 }
 
-.image{
+video{
     border-radius: 2%;
 }
 
