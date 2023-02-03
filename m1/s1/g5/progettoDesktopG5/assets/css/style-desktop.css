@@ -1,0 +1,203 @@
+/* MODIFICHE GENERALI */
+body{
+    color: #393d41;
+}
+
+/* HEADER */
+
+header{
+    text-align: left;
+    background-color: black;
+    padding: 1.8rem;
+}
+
+.hlogo{
+    margin: 0 auto;
+    width: 20%;
+}
+
+
+/* MAIN */
+h1{
+    font-family: "Montserrat";
+    font-weight: bold;
+    font-size: 2rem;
+    line-height: 1.5rem;
+    color: #25a2c3;
+    padding: 1.2rem;
+}
+
+main{
+    font-family: "Open Sans";
+    font-size: 1.2rem;
+    line-height: 1.5;
+    text-align: center;
+    
+}
+
+.bgbox{
+    background-image: url(../images/banner.jpg);
+    background-size: auto;
+    background-repeat: no-repeat;
+    padding: 6.5rem;
+}
+
+.button{
+    margin: 2rem;
+}
+
+#linkb{
+    background-color: #f04c2f;
+    text-decoration: none;
+    color: white;
+    font-family: "Montserrat";
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 0.85rem;
+    padding: 0.5rem;
+    border-radius: 0.28rem;
+    padding-left: 1.8rem;
+    padding-right: 1.8rem;
+}
+
+.mainbox{
+    display: flex;
+    align-content: center;
+}
+
+.pcflex{
+    padding: 3rem;
+}
+
+.artflex{
+    text-align: left;
+    margin-top: 2rem;
+}
+
+.mainbox h3{
+    color: #25a2c3;
+    font-family: "Montserrat";
+    font-weight: bold;
+    margin-top: 2rem;
+}
+
+.mainbox p{
+    margin-top: 1rem;
+
+}
+
+.mainimg{
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    border-radius: 100%;
+}
+
+.orangebox{
+    background-color: #e22d0e;
+    color: white;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    font-style: italic;
+    
+}
+
+.orangebox h4{
+    color: white;
+    font-weight: 600;
+    font-size: 1.8rem;
+    padding-top: 1rem;
+    margin-top: 2rem;
+    font-style:normal;
+
+}
+
+.ceop{
+    margin-top: 1.3rem;
+    margin-bottom: 1.3rem;
+}
+
+.ceoname{
+    font-style:normal;
+    font-weight:600;
+}
+
+.ceo{
+    font-style: normal;
+    margin-bottom: 2rem;
+    padding-bottom: 2rem;
+}
+
+/* ASIDE */
+aside{
+    font-family: "Open Sans";
+    font-size: 1.2rem;
+    line-height: 1.5;
+    text-align: center;
+    margin-bottom: 4rem;
+}
+
+.asideimg{
+    width: 100%;
+}
+
+.boxa{
+    border: 1px solid #dee1e3;
+    margin-top: 2rem;
+    margin-left: 1.5rem;
+    margin-right: 1.5rem;
+}
+
+.textas{
+    padding-bottom: 3rem;
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+}
+
+.textas h3{
+    margin-top: 2rem;
+}
+
+/* FOOTER */
+footer{
+    background-color: #25a2c3;
+    color: white;
+    font-family: "Open Sans";
+    font-size: 1.2rem;
+    line-height: 1.5;
+    text-align: center;    
+}
+
+h4{
+    font-weight: 600;
+    font-size: 1.8rem;
+    padding-top: 2rem;
+    margin-top: 2rem;
+    font-style:normal;
+}
+
+.contact{
+    margin: 2rem;
+}
+
+.hrfooter{
+    border-bottom: 1px solid #c8e7f0;
+    margin-left: 6rem;
+    margin-right: 6rem;
+    margin-bottom: 2rem;
+}
+
+.iconfooter, .copyright{
+    color:#c8e7f0;
+}
+
+.copyright a{
+    color: #c8e7f0;
+}
+
+i{
+    color: white;
+}
+
+.copyright{
+    padding-bottom: 4rem;
+}
