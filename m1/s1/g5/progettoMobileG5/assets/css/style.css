@@ -37,8 +37,10 @@ main{
 
 .bgbox{
     background-image: url(../images/banner.jpg);
-    background-size: contain;
+    background-size:cover;
+    
     padding: 1.5rem;
+    
 }
 
 .button{
