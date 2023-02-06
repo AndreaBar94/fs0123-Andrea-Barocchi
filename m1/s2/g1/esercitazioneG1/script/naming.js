@@ -5,13 +5,18 @@
 var Pet = 'cane';*/
 var petPreferito = 'criceto';
 console.log(petPreferito);
+
 var PetPreferito = 'coniglio';
+console.log(PetPreferito);
 
 var $pet = 'giraffa';
 console.log($pet);
+
 var _pet = 'leone';
 console.log(_pet);
+
 var _pet2 = 'pantera';
 document.write(_pet2);
 
-//var 12 = 'numero';
+var _12 = 'numero';
+console.log(_12) /* evitare di nominare variabili con numeri se poi il valore sono string*/ 

@@ -1,2 +1,2 @@
-alert('Usa il pop up per dare dei messaggi');
+alert('Gli alert bloccano il caricamento della pagina');
 window.alert('Sto studiando JS');
