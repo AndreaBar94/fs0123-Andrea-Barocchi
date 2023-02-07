@@ -61,7 +61,7 @@ console.log(name);
 const name = 'Andrea'
 console.log(name);
 const name = 'Barocchi'
-console.log(name);
+console.log(name); //la console restituisce errore, non si può rinominare una variabile di tipo const
 */
 
 
