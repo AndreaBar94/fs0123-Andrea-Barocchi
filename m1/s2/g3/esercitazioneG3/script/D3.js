@@ -207,4 +207,4 @@ for(var i=1; i<= 10; i++){
 }
 listone.pop(9);
 listone.push(100);
-console.log(listone)
+console.log(listone)*/
