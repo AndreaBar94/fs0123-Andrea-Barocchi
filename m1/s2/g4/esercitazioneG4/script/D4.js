@@ -247,9 +247,9 @@ Crea una funzionalità che prenda un elemento casuale dall'array "starWarsCharac
 
 
 
-let nomeCasuale = starWarsCharacters.indexOf(function (
+/*let nomeCasuale = starWarsCharacters.indexOf(function (
   getRandomInt(0, starWarsCharacters.length)
-))
+))*/
 
 
 //index = getRandomInt( 0, total)
