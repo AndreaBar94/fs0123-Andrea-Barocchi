@@ -1,0 +1,155 @@
+body{
+    background-image: url(../img/imgbg\ copia.png);
+    padding-top: 7rem;
+    padding-bottom: 7rem;
+}
+
+.allkeys{
+    display: flex;
+}
+
+.calcolatrice{
+    margin: 0 auto;
+    width:fit-content;
+    border: 2px solid rgb(97, 203, 36);
+    border-radius: 1rem;
+    background-color: black;
+    box-shadow: inset;
+}
+
+.row{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    
+
+}
+
+.content{
+    padding: 0.5rem;
+}
+
+.total{
+    text-align: center;
+    padding-bottom: 1rem;
+}
+
+.topdisplay{
+    padding: 2rem;
+}
+
+#display{
+    width: 100%;
+    box-sizing: border-box;
+    padding: 1rem;
+    border: 2px solid rgb(97, 203, 36);
+    background-color: black;
+    color: rgb(97, 203, 36);
+    border-radius: 0.5rem;
+    font-size: larger;
+    text-align: center;
+}
+
+.tasto{
+    border: 1px solid rgb(97, 203, 36);
+    color: rgb(97, 203, 36);
+    background-color: black;
+    border-radius: 0.1rem;
+    padding: 1rem;
+    font-size: x-large;
+    box-sizing: border-box;
+    width: 100%;
+}
+
+.tasto:hover{
+    border: 1px solid rgb(97, 203, 36);
+    color: black;
+    background-color:rgb(97, 203, 36);
+    border-radius: 0.1rem;
+    padding: 1rem;
+    font-size:x-large;
+}
+
+.tasto:active{
+    border: 1px solid rgb(97, 203, 36);
+    color: rgb(97, 203, 36);
+    background-color: black;
+    border-radius: 0.1rem;
+    padding: 1rem;
+    font-size:x-large;
+
+}
+
+.tastierino{
+    margin: 0 auto;
+    padding-bottom: 0.5rem;
+    padding-left: 1rem;
+}
+
+.total{
+    display: flex;
+    justify-content: center;
+}
+
+.tastouguale{
+    font-size: larger;
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+    padding: 1rem;
+    padding-left:4rem ;
+    padding-right: 4rem;
+    border: 1px solid rgb(97, 203, 36);
+    color: rgb(97, 203, 36);
+    background-color: black;
+}
+
+.tastouguale:hover{
+    font-size: larger;
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+    padding: 1rem;
+    padding-left:4rem ;
+    padding-right: 4rem;
+    border: 1px solid rgb(97, 203, 36);
+    color: black;
+    background-color: rgb(97, 203, 36);
+}
+
+.tastouguale:active{
+    font-size: larger;
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+    padding: 1rem;
+    padding-left:4rem ;
+    padding-right: 4rem;
+    border: 1px solid rgb(97, 203, 36);
+    color: rgb(97, 203, 36);
+    background-color: black;
+}
+
+.tastodel{
+    border: 1px solid rgb(97, 203, 36);
+    color: rgb(97, 203, 36);
+    background-color: black;
+    border-radius: 0.1rem;
+    padding: 1rem;
+    font-size:x-large;
+}
+
+.tastodel:active{
+    border: 1px solid rgb(97, 203, 36);
+    color: rgb(97, 203, 36);
+    background-color: black;
+    border-radius: 0.1rem;
+    padding: 1rem;
+    font-size:x-large;
+}
+
+.mathopt{
+    display: flex;
+    padding-right: 1rem;
+}
+
+.numkey{
+    padding-left: 1rem;
+}

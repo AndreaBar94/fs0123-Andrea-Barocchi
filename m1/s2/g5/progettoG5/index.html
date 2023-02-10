@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Usa questo potente strumento per i tuoi calcoli più segreti">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="assets/style/style.css">
+</head> 
+<body>
+    <div class="background">
+        <div class="calcolatrice">
+            <div class="topdisplay">
+                <input type="text" name="display" id="display" readonly>
+            </div>
+            <div class="allkeys">
+
+                <div class="numkey">
+
+                    <div class="row">
+                        <div class="content"><input type="submit" data-s="7" value="7" onclick="buttonV(this)" class="tasto"></div>
+                        <div class="content"><input type="submit" data-s="8" value="8" onclick="buttonV(this)" class="tasto"></div>
+                        <div class="content"><input type="submit" data-s="9" value="9" onclick="buttonV(this)" class="tasto"></div>
+                        <div class="content"><input type="submit" data-s="/" value="÷" onclick="buttonV(this)" class="tasto"></div>
+                    </div>
+                    <div class="row">
+                        <div class="content"><input type="submit" data-s="4" value="4" onclick="buttonV(this)" class="tasto"></div>
+                        <div class="content"><input type="submit" data-s="5" value="5" onclick="buttonV(this)" class="tasto"></div>
+                        <div class="content"><input type="submit" data-s="6" value="6" onclick="buttonV(this)" class="tasto"></div>
+                        <div class="content"><input type="submit" data-s="*" value="x" onclick="buttonV(this)" class="tasto"></div>
+                    </div>
+                    <div class="row">
+                        <div class="content"><input type="submit" data-s="1" value="1" onclick="buttonV(this)" class="tasto"></div>
+                        <div class="content"><input type="submit" data-s="2" value="2" onclick="buttonV(this)" class="tasto"></div>
+                        <div class="content"><input type="submit" data-s="3" value="3" onclick="buttonV(this)" class="tasto"></div>
+                        <div class="content"><input type="submit" data-s="-" value="-" onclick="buttonV(this)" class="tasto"></div>
+                    </div>
+                    <div class="row">
+                        <div class="content"><input type="submit" data-s="C" value="c" onclick="cancella()" class="tasto"></div>
+                        <div class="content"><input type="submit" data-s="0" value="0" onclick="buttonV(this)" class="tasto"></div>
+                        <div class="content"><input type="submit" data-s="." value="." onclick="buttonV(this)" class="tasto"></div>
+                        <div class="content"><input type="submit" data-s="+" value="+" onclick="buttonV(this)" class="tasto"></div>
+                    </div>
+
+                </div>
+                <div class="mathopt"> 
+
+                    <div>
+                        <div class="content"><input type="submit" data-s="(" value="(" onclick="buttonV(this)" class="tasto"></div>
+                        <div class="content"><input type="submit" data-s="[" value="[" onclick="buttonV(this)" class="tasto"></div>
+                        <div class="content"><button value="del" class="tasto" onclick="del()">del</button></div>
+                        <div class="content"><button value="radice" class="tasto"  onclick="sqrt(this)">&#8730;</button></div>
+                    </div>
+                    <div>
+                        <div class="content"><input type="submit" data-s=")" value=")" onclick="buttonV(this)" class="tasto"></div>
+                        <div class="content"><input type="submit" data-s="]" value="]" onclick="buttonV(this)" class="tasto"></div>
+                        <div class="content"><button value="pi" class="tasto" onclick="pi(this)">&pi;</button></div>
+                        <div class="content"><button value="square" class="tasto" onclick="square(this)">&#178;</button></div>
+                    </div>
+
+                </div>
+
+            </div>
+            <div class="total">
+                <button value="=" class="tastouguale" onclick="operation()">=</button>
+            </div>
+        </div>
+    </div>
+
+    <script src="script/script.js"></script>
+</body>
+</html>
