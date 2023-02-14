@@ -307,7 +307,7 @@ console.log(yearSum())
 */
 //sto ancora lavorando sulla ricerca tramite parola
 function locateFilmByWord(p){
-  find = movies.filter(e => Title == p)
+  find = movies.filter(e => String == p)
   return find
 }
 console.log(locateFilmByWord('of'))
