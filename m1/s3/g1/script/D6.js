@@ -120,11 +120,11 @@ console.log(cutString('andrea')) */
  Scrivi una funzione di nome "giveMeRandom", che accetta come parametro un numero n e ritorna un'array contenente n numeri casuali inclusi tra 0 e 10.
 */
 
-/*function giveMeRandom(n){
+/* function giveMeRandom(n){
     let arr = []
     for(i = 0; i<n ; i++){
-        arr.push(Math.floor(Math.random()*10))
+        arr.push(Math.floor(Math.random()*11))
     }
     return arr
 }
-console.log(giveMeRandom(10))*/
+console.log(giveMeRandom(10)) */
