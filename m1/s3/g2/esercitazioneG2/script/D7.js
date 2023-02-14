@@ -305,3 +305,9 @@ console.log(yearSum())
 /* ESERCIZIO 18 (EXTRA)
   Scrivi una funzione per recuperare tutti i film dall'array fornito che contengono una parola fornita.
 */
+//sto ancora lavorando sulla ricerca tramite parola
+function locateFilmByWord(p){
+  find = movies.filter(e => Title == p)
+  return find
+}
+console.log(locateFilmByWord('of'))
