@@ -13,14 +13,14 @@ class ToDoList{
       let delButton = document.createElement('button')
   }
   
-  removeFromList(){
+ /* removeFromList(){
           delButton.addEventListener('click', function(){
               
           })
           li = document.getElementById('li')
           let updated = document.getElementById("ulList");
           updated.onclick = elemento.removeFromList(li.innerText)
-      }
+      }*/
   
       addToDo(){
           let content = document.getElementById("input").value;
