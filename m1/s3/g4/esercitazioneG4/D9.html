@@ -164,7 +164,7 @@
       //keypress,keyup(quandotolgoildito),keydown(ditogiù)
       const inputField = document.getElementById('input-field');
       function consoleLogOnKey(){
-        inputField.addEventListener('keydown', function(){
+        inputField.addEventListener('keyup', function(){
           console.log(inputField.value)
         })
       }
@@ -177,7 +177,7 @@
       window.onload = async function () {
         await alert('Salve a tutti...')
       }
-      
+
     </script>
   </body>
 </html>
