@@ -181,16 +181,20 @@ console.log(rollTheDices(5))
 */
 
 let data = new Date
+
 let howManyDays = function(n){
   data = data.getTime()
   n = new Date(n).getTime()
+  let diff
   console.log(n)
   if(data>n){
     let diff = data-n
     console.log(diff/(1000*60*60*24))
-  }
+  }return diff
 }
-howManyDays(2020/12/18)
+howManyDays(2022/02/02)
+//NON FUNZIONA!
+
 
 /* ESERCIZIO 10
   Scrivi una funzione chiamata "isTodayMyBirthday" che deve ritornare true se oggi è il tuo compleanno, falso negli altri casi.
