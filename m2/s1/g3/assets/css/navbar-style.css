@@ -1,0 +1,36 @@
+.navBar{
+    width: 800px;
+    height: 120px;
+    background-color: rgb(248, 240, 205);
+    border-radius: 80px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+img{
+    width: 40px;
+    height: 40px;
+}
+
+.navBtn{
+    color: rgb(83, 41, 7);
+    font-size: 1rem;
+    background-color: rgb(247, 232, 119);
+    border-radius: 50px;
+    border:unset;
+    height: 60px;
+    width: 110px;
+}
+
+#iconBtn{
+    display:flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.navBtn:hover{
+    height: 80px;
+    width: 170px;
+}

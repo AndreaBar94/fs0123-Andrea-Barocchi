@@ -1,0 +1,37 @@
+/* PRODUCT CARD */
+.card{
+    border-radius: 140px;
+    background-image: url(../imgs/honey.jpg);
+    background-color: rgb(245, 235, 187);
+    background-repeat: no-repeat;
+    background-position: center top;
+    width: 400px;
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+}
+
+.text{
+    color: rgb(69, 37, 10);
+    font-size: 1.5rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.btn{
+    align-self: center;
+    padding: 1.5rem;
+}
+
+.addToCart{
+    color: rgb(83, 41, 7);
+    font-size: 1rem;
+    background-color: rgb(241, 217, 95);
+    border-radius: 30px;
+    border:unset;
+    width: 170px;
+    height: 40px;
+}
