@@ -1,0 +1,85 @@
+body{
+    background: linear-gradient(0.25turn, #6f4a21, #504019, #362905);
+}
+.postitBox{
+    margin-inline: auto;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    row-gap: 2rem;
+    margin-top:2rem;
+}
+
+/* EDIT POSTIT GENERALE */
+
+.postitYellow, .postitPurple, .postitGreen{
+    width: 16rem;
+    height:12rem;
+    font-family: 'Indie Flower', cursive;
+    box-sizing: border-box;
+    padding: 4rem;
+    box-shadow: 0px 5px 10px 2px;
+    text-align: left;
+    display: flex;
+    flex-direction:column;
+    row-gap: 1rem;
+    transition: 0.2s;
+}
+
+.task{
+    font-size: 2rem;
+}
+
+.text{
+    font-size: 1.2rem;
+}
+
+
+/* EDIT POSTIT SPECIFICO */
+
+.postitYellow{
+    background: linear-gradient( rgb(241, 241, 148),80%,rgb(67, 67, 67));
+    transform: rotate(-3deg);
+}
+
+.postitPurple{
+    background: linear-gradient( rgb(196, 164, 220),80%,rgb(67, 67, 67));
+    transform: rotate(-4deg);
+}
+
+.postitGreen{
+    background: linear-gradient( rgb(179, 233, 194),80%,rgb(67, 67, 67));
+    transform:rotate(3deg)
+}
+
+/* TRANSICTION */
+
+.postitYellow:hover, .postitPurple:hover, .postitGreen:hover{
+    transform: perspective(200px)translateZ(30px);
+    transition: 0.2s;
+    box-shadow: 0px 10px 15px 1px;
+    z-index: 1;
+}
+/* 
+.postitYellow, .postitGreen, .postitPurple{
+    animation-name: onTheWall;
+    transition: 1s;
+    animation-delay: 2;
+    animation-iteration-count: 1;
+    animation-fill-mode: both;
+}
+
+@keyframes onTheWall {
+    from {
+        transform:perspective(500px) translateZ(2000px);
+    }
+
+    50% {
+        transform: perspective(500px)translateZ(1000px);
+    }
+    
+    to {
+        transform: perspective(500px)translateZ(0px);
+    }
+} */

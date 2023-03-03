@@ -1,0 +1,184 @@
+/*
+1 creazione del testo e formattazione di 1 parola da far ruotare
+2 inserimento delle altre 2 parole
+3 sovrapporre le 3 parole
+4 mostrare 1 parola e nascondere le altre 2
+5 animare 1 parola (fadein - fadeout con spostamento)
+6 animare le altre 2 parole
+7 ritardare progressivamente l'animazione delle altre 2 parole 
+*/
+
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
+@keyframes fade-in-out1{
+    from{
+        opacity: 0;
+    }
+    12.5%{
+        opacity: 0;
+        transform: translateY(-30px);
+        transition:0.1s;
+    }
+    25%{
+        transform: translateY(0);
+        opacity: 1;
+    }
+    37.5%{
+        opacity: 0;              
+        transform: translateY(30px);
+        transition:0.1s;
+    }
+    50%{
+        opacity: 0;
+    }
+    62.5%{
+        opacity:0
+    }
+    75%{
+        opacity: 0;
+    }
+    87.5%{
+        opacity: 0;
+    }
+    to{
+        opacity: 0;
+    }
+}
+@keyframes fade-in-out2{
+    from{
+        opacity: 0;
+    }
+    12.5%{
+        opacity: 0;
+    }
+    25%{
+        opacity: 0;
+    }
+    37.5%{
+        opacity: 0;
+        transform: translateY(-30px);
+        transition:0.1s;              
+    }
+    50%{
+        transform: translateY(0);
+        opacity: 1;
+    }
+    62.5%{
+        opacity: 0;
+        transform: translateY(30px);
+        transition:0.1s;
+    }
+    75%{
+        opacity: 0;
+    }
+    87.5%{
+        opacity: 0;
+    }
+    to{
+        opacity: 0;
+    }
+}
+@keyframes fade-in-out3{
+    from{
+        opacity: 0;
+    }
+    12.5%{
+        opacity: 0;
+    }
+    25%{
+        opacity: 0;
+    }
+    37.5%{
+        opacity: 0;              
+    }
+    50%{
+        opacity: 0;
+    }
+    62.5%{
+        opacity: 0;
+        transform: translateY(-30px);
+        transition:0.1s;
+    }
+    75%{
+        transform: translateY(0);
+        opacity: 1;
+    }
+    87.5%{
+        opacity: 0;
+        transform: translateY(30px);
+        transition:0.1s;
+    }
+    to{
+        opacity: 0;
+    }
+}
+
+body {
+	background: linear-gradient(-330deg, #2e348b, #311142, #133745, #604e60);
+	background-size: 400% 400%;
+	animation: gradient 15s ease infinite;
+	height: 100vh;
+}
+
+main{
+    display: flex;
+    justify-content: center;
+}
+
+#testoAlternato{
+    width: 600px;
+    text-align: left;
+    color: aliceblue;
+    text-shadow: #221f22;
+    padding-block: 10rem;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 1.5rem;
+    line-height: 2rem;
+    
+}
+
+.word1, .word2, .word3{
+    font-style: italic;
+    color:rgb(255, 255, 255);
+    opacity: 0;
+    position:absolute;
+    width: 10rem;
+}
+
+.parole{
+    position:relative;
+}
+
+.word1{
+    animation-name: fade-in-out1;
+    animation-duration: 8s;
+    animation-fill-mode: both;
+    animation-iteration-count: infinite;
+    left: 8px;
+}
+
+.word2{
+    animation-name: fade-in-out2;
+    animation-duration: 8s;
+    animation-fill-mode: both;
+    animation-iteration-count: infinite;
+    left: 10px;
+}
+
+.word3{
+    animation-name: fade-in-out3;
+    animation-duration: 8s;
+    animation-fill-mode: both;
+    animation-iteration-count: infinite;
+    left: 10px;
+}
+
