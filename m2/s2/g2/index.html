@@ -1,0 +1,355 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Eveline - R</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+  </head>
+  <body>
+    <!-- NAVBAR -->
+        <nav class="navbar navbar-expand-lg bg-body-tertiary">
+            <div class="container-fluid">
+            <a class="navbar-brand" href="#"><img src="travel.png" width="45" alt="logo"></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#collapseSection1">Saldi</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#collapseSection2">Welcome Summer</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#collapseSection3" class="nav-link">Last Minute</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#collapseSection4" class="nav-link">Recensioni</a>
+                </li>
+                </ul>
+                <form class="d-flex" role="search">
+                <input class="form-control me-2" type="search" placeholder="Cerca posti da sogno" aria-label="Search">
+                <button class="btn btn-outline-danger" type="submit">Cerca</button>
+                </form>
+            </div>
+            </div>
+        </nav>
+    <!-- HERO SECTION -->
+        <div class="container-fluid p-5">
+            <div class="container text-lg-start text-center bg-light rounded g-2">
+                <div class="col p-3">
+                    <span class="align-middle fs-1 text-dark">VolaGratis <span class="align-middle fs-6 text-secondary">- Ovunque Con Te</span></span>
+                </div>
+                <div class="col p-3 border-top border-secondary-subtle">
+                    <span class="pt-3 fst-italic text-secondary">Vola gratis verso qualsiasi destinazione!</span>
+                </div>
+                <div class="col p-3">
+                    <button type="button" class="btn btn-info fw-bold text-light">Dona un rene</button>
+                </div>
+            </div>
+        </div>
+    <!-- SALES SECTION -->
+        <div class="container-fluid p-5">
+            <div class="row row-cols-2">
+                <span class="text-start fs-3 fw-bold">Saldi</span>
+                <span class="text-end"><button type="button" data-bs-toggle="collapse" href="#collapseSection1" class="btn btn-outline-info border-0">Nascondi sezione</button></span>
+            </div>
+            <div class="row row-cols-2 row-cols-md-3 row-cols-lg-4 collapse show" id="collapseSection1">
+                <div class="g-2">
+                    <div class="card border-2 border-info">
+                        <img src="https://picsum.photos/300/300" class="card-img-top" alt="destinationImg">
+                        <div class="card-body">
+                            <h5 class="card-title">Destinazione</h5>
+                            <p class="card-text">Mare o montagna? Villa in campagna con piscina.</p>
+                            <a href="#" class="btn btn-info">Prenota</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="g-2">
+                    <div class="card border-2 border-info">
+                        <img src="https://picsum.photos/300/300" class="card-img-top" alt="destinationImg">
+                        <div class="card-body">
+                            <h5 class="card-title">Destinazione</h5>
+                            <p class="card-text">Mare o montagna? Villa in campagna con piscina.</p>
+                            <a href="#" class="btn btn-info">Prenota</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="g-2">
+                    <div class="card border-2 border-info">
+                        <img src="https://picsum.photos/300/300" class="card-img-top" alt="destinationImg">
+                        <div class="card-body">
+                            <h5 class="card-title">Destinazione</h5>
+                            <p class="card-text">Mare o montagna? Villa in campagna con piscina.</p>
+                            <a href="#" class="btn btn-info">Prenota</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="d-md-none d-lg-block g-2">
+                    <div class="card border-2 border-info">
+                        <img src="https://picsum.photos/300/300" class="card-img-top" alt="destinationImg">
+                        <div class="card-body">
+                            <h5 class="card-title">Destinazione</h5>
+                            <p class="card-text">Mare o montagna? Villa in campagna con piscina.</p>
+                            <a href="#" class="btn btn-info">Prenota</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+        </div>
+    <!-- WELCOME SUMMER SECTION -->
+        <div class="container-fluid p-5">
+            <div class="row row-cols-2">
+                <span class="text-start fs-3">Summer Section</span>
+                <span class="text-end"><button type="button" data-bs-toggle="collapse" href="#collapseSection2" class="btn btn-outline-info border-0">Nascondi sezione</button></span>
+            </div>
+            <div class="row row-cols-2 row-cols-md-2 row-cols-lg-3 row-cols-xl-6 collapse show" id="collapseSection2">
+                <div class="g-2">
+                    <div class="card shadow-lg summer">
+                        <img src="https://picsum.photos/300/300" class="card-img-top " alt="destinationImg">
+                        <div class="card-body">
+                            <h5 class="card-title">Destinazione</h5>
+                            <p class="card-text">Mare o montagna? Villa in campagna con piscina.</p>
+                            <a href="#" class="btn btn-info">Prenota</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="g-2">
+                    <div class="card shadow-lg summer">
+                        <img src="https://picsum.photos/300/300" class="card-img-top" alt="destinationImg">
+                        <div class="card-body">
+                            <h5 class="card-title">Destinazione</h5>
+                            <p class="card-text">Mare o montagna? Villa in campagna con piscina.</p>
+                            <a href="#" class="btn btn-info">Prenota</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="g-2">
+                    <div class="card shadow-lg summer">
+                        <img src="https://picsum.photos/300/300" class="card-img-top" alt="destinationImg">
+                        <div class="card-body">
+                            <h5 class="card-title">Destinazione</h5>
+                            <p class="card-text">Mare o montagna? Villa in campagna con piscina.</p>
+                            <a href="#" class="btn btn-info">Prenota</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="g-2">
+                    <div class="card shadow-lg summer">
+                        <img src="https://picsum.photos/300/300" class="card-img-top" alt="destinationImg">
+                        <div class="card-body">
+                            <h5 class="card-title">Destinazione</h5>
+                            <p class="card-text">Mare o montagna? Villa in campagna con piscina.</p>
+                            <a href="#" class="btn btn-info">Prenota</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="g-2">
+                    <div class="card shadow-lg summer">
+                        <img src="https://picsum.photos/300/300" class="card-img-top" alt="destinationImg">
+                        <div class="card-body">
+                            <h5 class="card-title">Destinazione</h5>
+                            <p class="card-text">Mare o montagna? Villa in campagna con piscina.</p>
+                            <a href="#" class="btn btn-info">Prenota</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="g-2">
+                    <div class="card shadow-lg summer">
+                        <img src="https://picsum.photos/300/300" class="card-img-top" alt="destinationImg">
+                        <div class="card-body">
+                            <h5 class="card-title">Destinazione</h5>
+                            <p class="card-text">Mare o montagna? Villa in campagna con piscina.</p>
+                            <a href="#" class="btn btn-info">Prenota</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    <!-- OFFERTA DEL GIORNO SECTION -->
+        <div class="container-fluid p-5 d-none d-md-block">
+            <div class="container-fluid g-2 py-3">
+                <div class="row">
+                    <div class="col">
+                        <span class="text-start fs-3">Offerta del Giorno</span>
+                    </div>
+                    <div class="col text-end">
+                        <span><button type="button" data-bs-toggle="collapse" href="#collapseSection3" class="btn btn-outline-info border-0">Nascondi sezione</button></span>
+                    </div>
+                </div>
+            </div>
+            <div class="row text-start collapse show" id="collapseSection3">
+                <div class="col-8">
+                        <img class="img-fluid rounded-3 shadow" src="https://picsum.photos/800/400" alt="imgDailyOffer">
+                </div>
+                <div class="col-4">
+                    <div class="row row-cols-1">
+                        <div class="col"><span class="fs-3">Posto Bello</span></div>
+                        <div class="col"><span class="font-monospace">21.12.12 - 15.12.12</span> </div>
+                        <div class="col"><span class="lead">Viaggia nel passato a partire da 10.000€!</span></div>
+                        <div class="col"><span class="badge bg-dark">Best Offer</span> </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    <!-- LAST MINUTE SECTION -->
+        <div class="container-fluid p-5">
+            <div class="container-fluid g-2 py-3">
+                <div class="row">
+                    <div class="col">
+                        <span class="text-start fs-3">Last Minute</span>
+                    </div>
+                    <div class="col text-end">
+                        <span><button type="button" data-bs-toggle="collapse" href="#collapseSection4" class="btn btn-outline-info border-0">Nascondi sezione</button></span>
+                    </div>
+                </div>
+            </div>
+            <div class="row row-cols-2 row-cols-md-3 row-cols-lg-6 g-4 collapse show" id="collapseSection4">
+                <div class="col"><img src="https://picsum.photos/300/300" alt="lastMinutePic" class="img-fluid shadow rounded-3"></div>
+                <div class="col"><img src="https://picsum.photos/300/300" alt="lastMinutePic" class="img-fluid shadow rounded-3"></div>
+                <div class="col"><img src="https://picsum.photos/300/300" alt="lastMinutePic" class="img-fluid shadow rounded-3"></div>
+                <div class="col"><img src="https://picsum.photos/300/300" alt="lastMinutePic" class="img-fluid shadow rounded-3"></div>
+                <div class="col"><img src="https://picsum.photos/300/300" alt="lastMinutePic" class="img-fluid shadow rounded-3"></div>
+                <div class="col"><img src="https://picsum.photos/300/300" alt="lastMinutePic" class="img-fluid shadow rounded-3"></div>
+            </div>
+        </div>
+    <!-- RECENSIONI -->
+        <div class="container-fluid p-5">
+            <div class="container-fluid g-2 py-3">
+                <div class="row">
+                    <div class="col">
+                        <span class="text-start fs-3">Recensioni</span>
+                    </div>
+                    <div class="col text-end">
+                        <span><button type="button" data-bs-toggle="collapse" href="#collapseSection5" class="btn btn-outline-info border-0">Nascondi sezione</button></span>
+                    </div>
+                </div>
+            </div>
+            <div class="row row-cols-1 collapse show" id="collapseSection5">
+                <div class="col">
+                    <div class="row">
+                        <div class="col-1 text-center py-3">
+                            <img src="https://picsum.photos/200" class="img-fluid border rounded-circle border-2 border-info" alt="profileimg">
+                        </div>
+                        <div class="col-11 py-1">
+                            <p class="text-start fs-3">Ivano</p>
+                            <p class="text-start">"Non riesco a 'ndividuà 'o stadio"</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="row">
+                        <div class="col-1 text-center py-3">
+                            <img src="https://picsum.photos/200" class="img-fluid border rounded-circle border-2 border-info" alt="profileimg">
+                        </div>
+                        <div class="col-11 py-1">
+                            <p class="text-start fs-3">Raniero Cotti Borroni</p>
+                            <p class="text-start">"No, non mi disturba affatto"</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="row">
+                        <div class="col-1 text-center py-3">
+                            <img src="https://picsum.photos/200" class="img-fluid border rounded-circle border-2 border-info" alt="profileimg">
+                        </div>
+                        <div class="col-11 py-1">
+                            <p class="text-start fs-3">Leo</p>
+                            <p class="text-start">"In che senso?"</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="row">
+                        <div class="col-1 text-center py-3">
+                            <img src="https://picsum.photos/200" class="img-fluid border rounded-circle border-2 border-info" alt="profileimg">
+                        </div>
+                        <div class="col-11 py-1">
+                            <p class="text-start fs-3">Ruggero</p>
+                            <p class="text-start">"Cioè maestro che cosa vuoi che io faccia per te? E lui rispose: love, love, love"</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    <!-- FOOTER -->
+        <div class="footer">
+            <div class="container-fluid bg-dark py-5">
+                <div class="row row-cols-1 text-center g-4">
+                    <div class="col">
+                        <button type="button" data-bs-toggle="modal" data-bs-target="#exampleModal" class="btn btn-outline-secondary text-light">Contattaci</button>
+                    </div>
+                    <div class="col">
+                        <p class="text-light"> &copy 2023 'nSacco Bello LTD. All Stadium Reserved.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    <!-- MODAL -->
+        <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                <h1 class="modal-title fs-5" id="exampleModalLabel">Chiedi Informazioni</h1>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <form>
+                        <div class="mb-3">
+                            <label for="recipient-name" class="col-form-label">Oggetto:</label>
+                            <input type="text" class="form-control" id="recipient-name">
+                        </div>
+                        <div class="mb-3">
+                            <label for="message-text" class="col-form-label">Messaggio:</label>
+                            <textarea class="form-control" id="message-text"></textarea>
+                        </div>
+                    </form>
+                </div>
+                <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Chiudi</button>
+                <button type="button" class="btn btn-primary">Invia</button>
+                </div>
+            </div>
+            </div>
+        </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous">
+
+        let deals = document.querySelectorAll(".summer")
+        let summerDeals = Array.from(deals)
+        let badge = document.createElement("span")
+
+        badge.classList.add("position-absolute")
+        badge.classList.add("top-0")
+        badge.classList.add("start-100")
+        badge.classList.add("translate-middle")
+        badge.classList.add("badge")
+        badge.classList.add("rounded-pill")
+        badge.classList.add("bg-danger")
+        badge.classList.add("p-2")
+        badge.classList.add("z-1")
+        badge.innerHTML = "Hot"
+
+        //continua a non funzionare
+        let hotDeals = () => {
+
+        summerDeals.forEach((i) => {
+            
+            i.appendChild(badge.cloneNode(true))
+        })
+        return summerDeals
+        }
+
+        hotDeals()
+        
+        
+    </script>
+
+    </body>
+</html>
