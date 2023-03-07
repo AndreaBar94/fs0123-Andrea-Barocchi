@@ -349,7 +349,15 @@
 
         hotDeals()
         
-
+        let cards = document.querySelectorAll(".card")
+        
+        let deleteAllCards = () => {
+            cards.forEach(i => {
+                i.style.display = "none"
+            })
+        }
+        //decommentare per funzionamento
+        //deleteAllCards()
         </script>
     </body>
 </html>
