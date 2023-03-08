@@ -1,0 +1,58 @@
+@import 'partials/reset.scss';
+@import 'partials/animations';
+@import 'partials/fonts';
+@import 'partials/mixins';
+@import 'partials/spacings';
+@import 'partials/buttons';
+@import 'partials/colors';
+
+body{
+    font-family: $font-family;
+    font-size: $font-md;
+}
+.grid{
+    @include grid(
+        33%
+    )
+}
+
+header{
+    nav{
+        justify-content: space-between;
+        align-items: center;
+        ul{
+            justify-content: stretch;
+
+            li{
+                list-style: none;
+            }
+        }
+    }   
+}
+.hero{
+    @include fadeIn(1s, 0.1s, fadeIn);
+    width: 100%;
+    justify-content: space-around;
+    align-items: center;
+    background-color: $bg-hero;
+    color: $text-color;
+    padding-block: 1rem;
+    margin-bottom: 2rem;
+    div{
+        align-items: center;
+        img{
+        @include floating
+    }
+    }
+    p{
+        @include title-big;
+    }
+}
+.container{
+    img{
+        @include floating
+    }
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}

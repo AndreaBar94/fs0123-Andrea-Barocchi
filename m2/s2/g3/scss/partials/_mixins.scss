@@ -1,0 +1,17 @@
+@mixin title-big(){
+    width: 500px;
+    height: 100px;
+    text-align: left;
+};
+
+@mixin floating(){
+    border-radius: 30px;
+    box-shadow: 0 0 2px rgb(65, 64, 64);
+    border: 1px solid #ccc;
+};
+
+@mixin grid($percentage){
+    display: flex;
+    flex-basis: $percentage;
+    flex-wrap: wrap;
+}

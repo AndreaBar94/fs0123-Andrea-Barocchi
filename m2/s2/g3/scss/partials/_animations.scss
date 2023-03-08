@@ -1,0 +1,22 @@
+@mixin fadeIn ($duration, $delay, $name){
+    
+        
+        animation-name: $name;
+        animation-iteration-count: 1;
+        animation-fill-mode: both;
+        animation-delay: $delay;
+        animation-timing-function: ease-in;
+        animation-duration: $duration;
+    
+    @keyframes #{$name}{
+        0% {
+            opacity: 0;
+            transform: translateY(-20px);
+        }
+        100% {
+            opacity: 1;
+            trasform: 0;
+        }
+    }
+    
+}
