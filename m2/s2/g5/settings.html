@@ -1,0 +1,168 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Settings</title>
+    <link rel="stylesheet" href="assets/css/index.css">
+  </head>
+  <body>
+    <header>
+        <nav class="navbar navbar-expand-lg bg-dark">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">
+                <img src="assets/netflix_logo.png" alt="netflix logo" width="85" height="38" class="d-inline-block align-text-top mx-3"></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                <li class="nav-item">
+                <a class="nav-link text-light" href="#">Home</a>
+                </li>
+                <li class="nav-item">
+                <a class="nav-link text-light" href="#">TV Shows</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link text-light" href="#">Movies</a>
+                </li>
+                <li class="nav-item">
+                <a class="nav-link text-light">Recently Added</a>
+                </li>
+                <li class="nav-item">
+                <a class="nav-link text-light">My List</a>
+                </li>
+            </ul>
+                <div class="d-flex align-items-center">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="30" height="24" fill="white" class="bi bi-search mx-2" viewBox="0 0 16 16">
+                        <path d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z"/>
+                      </svg>
+                      <span class="text-light mx-2">KIDS</span>
+                      <svg xmlns="http://www.w3.org/2000/svg" width="30" height="24" fill="white" class="bi bi-bell-fill mx-2" viewBox="0 0 16 16">
+                        <path d="M8 16a2 2 0 0 0 2-2H6a2 2 0 0 0 2 2zm.995-14.901a1 1 0 1 0-1.99 0A5.002 5.002 0 0 0 3 6c0 1.098-.5 6-2 7h14c-1.5-1-2-5.902-2-7 0-2.42-1.72-4.44-4.005-4.901z"/>
+                      </svg>
+                    <div class="btn-group dropstart">
+                        <button type="button" class="btn btn-secondary dropdown-toggle bg-dark border-dark" data-bs-toggle="dropdown" aria-expanded="false">
+                          <img src="assets/avatar.png" width="30" height="30" alt="avatar logo">
+                        </button>
+                        <ul class="dropdown-menu">
+                          <li><a class="dropdown-item" href="index.html">Home</a></li>
+                          <li><a class="dropdown-item" href="settings.html">Settings</a></li>
+                          <li><a class="dropdown-item" href="#">Log Out</a></li>
+                        </ul>
+                      </div>
+                </div>
+            </div>
+        </div>
+    </nav>
+    </header>
+    <main class="bg-light">
+        <div class="container py-5">
+            <div class="container border-bottom">
+                <h3>Account</h3>
+            </div>
+            <div class="row border-bottom py-3">
+                <div class="col-3">
+                    <div class="container">MEMBERSHIP & BILLING</div>
+                    <div class="container"><button type="button" class="membership btn btn-outline-dark rounded-0">Cancel Membership</button></div>
+                </div>
+                <div class="col-9">
+                    <div class="border-bottom info">
+                        <div class="d-flex justify-content-between">
+                            <div><span>email</span></div>
+                            <div><button type="button" class="btn border border-0 btn-outline-primary">Change account email</button></div>
+                        </div>
+                        <div class="d-flex justify-content-between">
+                            <div><span>password:**********</span></div>
+                            <div><button type="button" class="btn border border-0 btn-outline-primary">Change password</button></div>
+                        </div>
+                        <div class="d-flex justify-content-between">
+                            <div><span>Phone: 123 45678 90</span></div>
+                            <div><button type="button" class="btn border border-0 btn-outline-primary">Change phone number</button></div>
+                        </div>
+                    </div>
+                    <div class="border-bottom paypal">
+                        <div class="d-flex justify-content-between">
+                            <div><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-paypal" viewBox="0 0 16 16">
+                                <path d="M14.06 3.713c.12-1.071-.093-1.832-.702-2.526C12.628.356 11.312 0 9.626 0H4.734a.7.7 0 0 0-.691.59L2.005 13.509a.42.42 0 0 0 .415.486h2.756l-.202 1.28a.628.628 0 0 0 .62.726H8.14c.429 0 .793-.31.862-.731l.025-.13.48-3.043.03-.164.001-.007a.351.351 0 0 1 .348-.297h.38c1.266 0 2.425-.256 3.345-.91.379-.27.712-.603.993-1.005a4.942 4.942 0 0 0 .88-2.195c.242-1.246.13-2.356-.57-3.154a2.687 2.687 0 0 0-.76-.59l-.094-.061ZM6.543 8.82a.695.695 0 0 1 .321-.079H8.3c2.82 0 5.027-1.144 5.672-4.456l.003-.016c.217.124.4.27.548.438.546.623.679 1.535.45 2.71-.272 1.397-.866 2.307-1.663 2.874-.802.57-1.842.815-3.043.815h-.38a.873.873 0 0 0-.863.734l-.03.164-.48 3.043-.024.13-.001.004a.352.352 0 0 1-.348.296H5.595a.106.106 0 0 1-.105-.123l.208-1.32.845-5.214Z"/>
+                              </svg><span>paypal mail</span></div>
+                            <div><button type="button" class="btn border border-0 btn-outline-primary">Update payment info</button></div>
+                        </div>
+                        <div class="d-flex justify-content-between">
+                            <div><span></span></div>
+                            <div><button type="button" class="btn border border-0 btn-outline-primary">Billing Details</button></div>
+                        </div>
+                    </div>
+                    <div class="promo">
+                        <div class="d-flex justify-content-between">
+                            <div><span></span></div>
+                            <div><button type="button" class="btn border border-0 btn-outline-primary">Redeem gift card or promo code</button></div>
+                        </div>
+                        <div class="d-flex justify-content-between">
+                            <div><span></span></div>
+                            <div><button type="button" class="btn border border-0 btn-outline-primary">where to buy gift cards</button></div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+            <div class="row border-bottom py-3">
+                <div class="col-3">
+                    <div class="container"><span>PLAN DETAILS</span></div>
+                </div>
+                <div class="col-9">
+                    <div class="d-flex justify-content-between">
+                        <div><span>Premium ultrahd</span></div>
+                        <div><button type="button" class="btn border border-0 btn-outline-primary">Change plan</button></div>
+                    </div>
+                </div>
+            </div>
+            <div class="row border-bottom py-3">
+                <div class="col-3">
+                    <span class="container">SETTINGS</span>
+                </div>
+                <div class="col-9">
+                    <div><button type="button" class="btn border border-0 btn-outline-primary">Parental controls</button></div>
+                    <div><button type="button" class="btn border border-0 btn-outline-primary">Test participation</button></div>
+                    <div><button type="button" class="btn border border-0 btn-outline-primary">Manage download devices</button></div>
+                    <div><button type="button" class="btn border border-0 btn-outline-primary">Activate a device</button></div>
+                    <div><button type="button" class="btn border border-0 btn-outline-primary">Recent devices streaming activity</button></div>
+                    <div><button type="button" class="btn border border-0 btn-outline-primary">Sign out of all devices</button></div>
+                </div>
+            </div>
+            <div class="row border-bottom py-3">
+                <div class="col-3">
+                    <div class="container">
+                        <span>MY PROFILE</span>
+                    </div>
+                </div>
+                <div class="col-9">
+                    <div class="d-flex justify-content-between">
+                        <div><span>Strive Student</span></div>
+                        <div><button type="button" class="btn border border-0 btn-outline-primary">manage profiles</button></div>
+                    </div>
+                    <div class="d-flex justify-content-between">
+                        <div><span></span></div>
+                        <div><button type="button" class="btn border border-0 btn-outline-primary">Add profile email</button></div>
+                    </div>
+                    <div class="d-flex justify-content-between ">
+                        <div><button type="button" class="btn border border-0 btn-outline-primary">language</button></div>
+                        <div><button type="button" class="btn border border-0 btn-outline-primary">Viewing activity</button></div>
+                    </div>
+                    <div class="d-flex justify-content-between ">
+                        <div><button type="button" class="btn border border-0 btn-outline-primary">Playback settings</button></div>
+                        <div><button type="button" class="btn border border-0 btn-outline-primary">Ratings</button></div>
+                    </div>
+                    <div class="d-flex justify-content-between">
+                        <div><button type="button" class="btn border border-0 btn-outline-primary">Subtitle appearance</button></div>
+                        <div></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
+  </body>
+</html>

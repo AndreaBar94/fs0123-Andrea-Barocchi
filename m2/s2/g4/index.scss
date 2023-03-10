@@ -1,0 +1,22 @@
+@import "./override.bootstrap.scss";
+
+@font-face {
+    font-family: myFirstFont;
+    src: url(assets/font/fa-regular-400.woff2);
+}
+.logo{
+    background-color: #FFEEDA;
+    img{
+        fill: #C28135;
+    }
+}
+.recommended{
+    background-color:#F5F4F8;
+}
+
+.carousel-control-prev{
+    left: -70px;
+}
+.carousel-control-next{
+    right: -70px;
+}
