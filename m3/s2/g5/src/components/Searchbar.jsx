@@ -20,7 +20,7 @@ const Searchbar = () => {
     const [temp, setTemp] = useState("");
     const [wind, setWind] = useState('');
     const dispatch = useDispatch();
-
+    
             const handleChange = (e) => {
             setSearch(e.target.value)
             }
@@ -33,6 +33,7 @@ const Searchbar = () => {
                 const data = await response.json()
                 setCity(data)
                 dispatch({type:'DAYS', payload: data})
+                console.log(data)
             } else {
                 alert('Error fetching results 1')
             }

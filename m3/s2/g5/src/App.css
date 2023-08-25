@@ -40,4 +40,5 @@
 .main {
 	background: url(assets/cielo-con-nuvole-bianche.jpg);
 	background-size: cover;
+	margin-block: 0;
 }
